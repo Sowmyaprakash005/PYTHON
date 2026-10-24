@@ -6,3 +6,5 @@ print(b)
 print(c)
 print(a+" "+b)
 print(a*4)
+s="Artificial intelligence"
+s.split() #print(s.split())
