@@ -1,0 +1,8 @@
+t1=(2,4,6,8,10)
+t2=("RED","BLUE","BLACK","WHITE")
+print(t2)
+t=(11,6,31,14,6,16)
+print("original ",t)
+s=set(t)
+print(s)
+print(tuple(s)) 
