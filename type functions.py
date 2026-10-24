@@ -1,0 +1,12 @@
+a=10
+print(type(a))
+print(type(2.2))
+print(type("abc"))
+print(type(True))
+complex=2+5j
+print(complex)
+print(type(complex))
+x=2.1
+print(type(x))
+print(isinstance(x,int))
+print(isinstance(x,float))
