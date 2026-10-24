@@ -1,0 +1,11 @@
+1=[2,2,6,8,9]
+l2=["red","blue","green","yellow","black"]
+(l2.append("white"))
+(l2.append(l1))
+print(l1)
+print(l2)
+l1.remove(8)
+l2.remove("red")
+l1.remove(l1[3])
+print(l1)
+print(l2)
