@@ -1,6 +1,6 @@
 l=list(map(int,input("Enter elements seperated by space").split()))
-w=list(set(l))   #set() removes the duplicate values
-w.sort()    # will sort in aescending order
+w=list(set(l))  
+w.sort()    
 if len(w)<2:
     print("No second largest element")
 else:
