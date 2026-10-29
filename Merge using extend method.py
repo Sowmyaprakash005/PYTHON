@@ -1,0 +1,5 @@
+l1=list(map(int,input("Enter elements for list 1 seperated by space:").split()))
+l2=list(map(int,input("Enter elemets for list 2 sepeated by space:").split()))
+merged=l1.copy()
+merged.extend(l2)
+print(merged)
