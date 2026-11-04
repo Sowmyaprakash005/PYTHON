@@ -1,5 +1,5 @@
 w=input("enter a word:")
-freq={}  #dictionary
+freq={}  
 for ch in w:
     if ch in freq:
         freq[ch]+=1
